@@ -1,0 +1,9 @@
+{
+  "target_letter": "A",
+  "score": 0,
+  "grade": "Keep Trying!",
+  "stars": 0,
+  "feedback": "Let's practice 'A' again. You can do it!\n(It looks more like 'B' - remember the shape of 'A'!)",
+  "is_correct_letter": false,
+  "predicted_letter": "B",
+  "predicted_confidence": 

@@ -1,4 +1,9 @@
 import tensorflow as tf
+import os
 
-model = tf.keras.models.load_model("saved_model_emnist_byclass/best.h5")
-model.summary()
+MODEL_DIR = "saved_model_emnist_byclass"
+
+model = tf.keras.models.load_model(os.path.join(MODEL_DIR, 'best.keras'))
+
+model.export(MODEL_DIR)  
+print(f"Model saved to {MODEL_DIR}")
